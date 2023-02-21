@@ -11,7 +11,7 @@
 
 
 s = int(input())
-katia = int((s/3)*2)
-petya = int((katia/2)/2)
-serega = int(petya)
+katia = s // 3 * 2
+petya = katia // 2 // 2
+serega = petya
 print(petya, katia, serega)
