@@ -16,6 +16,6 @@ x = int(input())
 a = [random.randint(1, n) for _ in range(n)]
 print(*a)
 print(a)
-print(a.count(int(x)))
+print(a.count(x))
 
 
